@@ -73,26 +73,68 @@ section p {
 }
 
 /* insérer pour tests */
-.box > * {
+
+/*.box > * {
   border: 2px solid rgb(96 139 168);
   border-radius: 5px;
-  background-color: rgb(96 139 168 / 0.2);
+  ackground-color: rgb(96 139 168 / 0.2); 
 }
 
 .box {
   border: 2px dotted rgb(96 139 168);
-  background-color: aqua;
-  width: 800px;
-  height: 200px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items:  stretch;
   justify-content: start;
+} */
+
+.master {
+   border: 2px dotted rgb(96 139 168);
+   width: 700px;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-wrap: wrap;
+   flex-flow: row wrap;
+   flex-direction: row;
 }
 
 .one {
-  flex: auto;
+  background-color: #764ba2;
+  width: 200px;
+  height: 200px;
 }
+
+.two {
+  background-color: #711ec4;
+  width: 200px;
+  height: 200px;
+}
+
+.three {
+  background-color: #2ecc29;
+  width: 200px;
+  height: 200px;
+}   
+
+.four {
+  background-color: #f1c40f;
+  width: 200px;
+  height: 200px;
+}
+
+.five {
+  background-color: #e74c3c;
+  width: 200px;
+  height: 200px;
+}
+
+.six {
+  background-color: #9b59b6;
+  width: 200px;
+  height: 200px;
+}
+
 /* fin du test */
 
 /* Formulaire */
